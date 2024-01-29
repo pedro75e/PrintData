@@ -1,12 +1,15 @@
 .menu{
+    background-color: cadetblue;
     display: flex;
     margin: 20px;
 }
 
 .links{
+    padding-top: 20px;
     width: 70%;
 }
 
 .carrito{
     width: 20%;
 }
+
