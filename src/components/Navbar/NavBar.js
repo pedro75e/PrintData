@@ -1,9 +1,11 @@
 import CartWidget from "../CartWidget/CartWidget"
+import './NavBar.css'
+
 const NavBar = () => {
     return(
-        <nav>
+        <nav className="menu">
             <h3>Print Data</h3>
-            <div>
+            <div className="links">
                 <button>Insumos</button>
                 <button>Marcas</button>
                 <button>Contacto</button>
